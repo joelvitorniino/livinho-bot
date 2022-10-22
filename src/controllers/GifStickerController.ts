@@ -1,6 +1,5 @@
 import { downloadContentFromMessage, WAMessage, WASocket } from "@adiwajshing/baileys";
 import fs from 'fs';
-import { exec } from "shelljs";
 import ffmpeg from 'fluent-ffmpeg';
 import { promisify } from 'util';
 
