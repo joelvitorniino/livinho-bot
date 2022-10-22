@@ -1,0 +1,33 @@
+{
+  "name": "livinho-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^4.4.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^9.1.4",
+    "axios": "^0.26.1",
+    "cpf-cnpj-validator": "^1.0.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "generate-payment-card": "^1.0.8",
+    "gerador-validador-cpf": "^5.0.2",
+    "morse-node": "^0.1.1",
+    "node-gtts": "^2.0.2",
+    "pino": "^8.1.0",
+    "pm2": "^5.2.2",
+    "qrcode-terminal": "^0.12.0",
+    "random-username-generator": "^1.0.4",
+    "wa-sticker-formatter": "^4.3.2"
+  },
+  "scripts": {
+    "dev": "ts-node-dev src/app.ts",
+    "build": "tsc --build",
+    "start": "node dist/app.js",
+    "production": "pm2 start dist/app.js --name niino-bot"
+  },
+  "devDependencies": {
+    "@types/fluent-ffmpeg": "^2.1.20",
+    "@types/shelljs": "^0.8.11"
+  }
+}

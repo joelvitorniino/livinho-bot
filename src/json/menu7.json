@@ -1,0 +1,3 @@
+{
+    "messageMenu": "!bingo - Realiza o sorteio de um numero escolhido pelo usuario e sorteia um usuário do grupo aleatório EX: (!bingo 1000)\n\n!morse-encode - Para transformar algo escrito em código morse (EX: !morse-encode Olá, mundo)\n\n!morse-decode - Para transformar código morse em algo legível (EX: !morse-decode . .- .)\n\n!username - Para gerar um nome de usuário aleatório!"
+}
